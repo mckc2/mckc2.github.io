@@ -6,7 +6,12 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
-
+header {
+    background-image: url();
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+}
 h1,
 h2,
 h3 {
@@ -32,3 +37,4 @@ nav {
   background-color: rgb(223, 153, 153);
   padding: 12px;
 }
+.first-name
