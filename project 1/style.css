@@ -1,8 +1,9 @@
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 body {
-    margin: 0;
+    display: flex;
 }
 h1 {
     font-family:'Bebas Neue', cursive;
@@ -25,17 +26,15 @@ h1 {
   
   .hover-text {
     position: relative;
-    width: 100%;
+    width: 300px;
     margin: auto;
   }
-
   .bottom {
       padding: 40px;
   }
   .hover-text img {
-    width: 100%;
+    width: 300px;
   }
-
   .grid-2 .left {
     padding: 60px;
   }
@@ -49,9 +48,6 @@ h1 {
     opacity: 0;
     transition: 0.5s ease;
     background-color: #ccb69e;
-  }
-  .hover-text .overlay {
-    width: 100%;
   }
   
   .hover-text:hover .overlay {
@@ -70,32 +66,18 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
   } 
-
-  .hover-text.plate  {
-    flex: 65%;
-    margin-right: 20px;
-  }
-  .hover-text.yerb {
-    flex: 35%;
-  }
   h3 {
     font-size: 36px;
     font-family: 'Courier New', Courier, monospace, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
-  main{
+  main,
+  header h1,
+  nav div {
     width: 85%;
     margin: auto;
   }
   header {
-    display: flex;
-    width: 60%;
-    margin: auto;
-  }
-  header img {
-    max-width: 600px;
-  }
-  header div {
-    flex: 1;
+    padding: 40px 0;
   }
   nav a {
     padding-right: 20px;
@@ -104,17 +86,28 @@ h1 {
     color: #333;
   }
   nav {
+    background-color: #ccc;
     padding: 12px;
-    margin-bottom: 100px;
   }
-  header #demobox {
+  #demobox {
     font-family: 'Bebas Neue', cursive; 
-    font-size: 140px;
-    color: #d19035;
-    margin-left: -120px;
+    font-size: 50pt;
+    color: #d19035; top: 50%;
+    background-color: #ffc164 ;
+    width: 100%;
+    height: 100px;
+    padding: 0px ;
+    text-align: center;
+    position: relative;
+    margin: auto;
   }
     .orange {
+<<<<<<< HEAD
         display: flex;
         justify-content: space-between;
         background-color: #ffc164;
     }
+=======
+        width: 10vw;
+    }
+>>>>>>> parent of 35db1e7... fixed some homepage stuff
