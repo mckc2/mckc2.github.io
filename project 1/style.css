@@ -4,6 +4,13 @@ img {
 body {
     margin: 0;
 }
+h1 {
+    font-family:'Bebas Neue', cursive;
+    color: #d19035;
+    font-size: 20pt;
+    margin: auto;
+
+}
 .grid-2 {
     display: flex;
     padding: 60px;
@@ -53,7 +60,7 @@ body {
   
   .hover-text .text {
     color: white;
-    font-family: arial;
+    font-family: "bebas neue";
     font-size: 50px;
     position: absolute;
     top: 50%;
