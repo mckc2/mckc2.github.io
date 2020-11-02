@@ -15,7 +15,8 @@ body {
       justify-content: flex-start;
   }
   /* Text over an images */
-  
+
+
   .hover-text {
     position: relative;
     width: 100%;
@@ -79,6 +80,7 @@ body {
     width: 85%;
     margin: auto;
   }
+  
   header {
     display: flex;
     width: 60%;
