@@ -1,15 +1,8 @@
 img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 body {
-    display: flex;
-}
-h1 {
-    font-family:'Bebas Neue', cursive;
-    color: #d19035;
-    font-size: 20pt;
-    margin: auto;
+    margin: 0;
 }
 .grid-2 {
     display: flex;
@@ -22,18 +15,21 @@ h1 {
       justify-content: flex-start;
   }
   /* Text over an images */
-  
+
+
   .hover-text {
     position: relative;
-    width: 300px;
+    width: 100%;
     margin: auto;
   }
+
   .bottom {
       padding: 40px;
   }
   .hover-text img {
-    width: 300px;
+    width: 100%;
   }
+
   .grid-2 .left {
     padding: 60px;
   }
@@ -48,6 +44,9 @@ h1 {
     transition: 0.5s ease;
     background-color: #ccb69e;
   }
+  .hover-text .overlay {
+    width: 100%;
+  }
   
   .hover-text:hover .overlay {
     opacity: 1;
@@ -55,7 +54,7 @@ h1 {
   
   .hover-text .text {
     color: white;
-    font-family: "bebas neue";
+    font-family: arial;
     font-size: 50px;
     position: absolute;
     top: 50%;
@@ -65,18 +64,33 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
   } 
+
+  .hover-text.plate  {
+    flex: 65%;
+    margin-right: 20px;
+  }
+  .hover-text.yerb {
+    flex: 35%;
+  }
   h3 {
     font-size: 36px;
     font-family: 'Courier New', Courier, monospace, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
-  main,
-  header h1,
-  nav div {
+  main{
     width: 85%;
     margin: auto;
   }
+  
   header {
-    padding: 40px 0;
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+  header img {
+    max-width: 600px;
+  }
+  header div {
+    flex: 1;
   }
   nav a {
     padding-right: 20px;
@@ -85,24 +99,17 @@ h1 {
     color: #333;
   }
   nav {
-    background-color: #ccc;
     padding: 12px;
+    margin-bottom: 100px;
   }
-  #demobox {
+  header #demobox {
     font-family: 'Bebas Neue', cursive; 
-    font-size: 50pt;
-    color: #d19035; top: 50%;
-    background-color: #ffc164 ;
-    width: 100%;
-    height: 100px;
-    padding: 0px ;
-    text-align: center;
-    position: relative;
-    margin: auto;
+    font-size: 140px;
+    color: #d19035;
+    margin-left: -120px;
   }
     .orange {
         display: flex;
         justify-content: space-between;
         background-color: #ffc164;
-        width: 10vw;
     }
