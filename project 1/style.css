@@ -10,7 +10,6 @@ h1 {
     color: #d19035;
     font-size: 20pt;
     margin: auto;
-
 }
 .grid-2 {
     display: flex;
@@ -102,12 +101,8 @@ h1 {
     margin: auto;
   }
     .orange {
-<<<<<<< HEAD
         display: flex;
         justify-content: space-between;
         background-color: #ffc164;
-    }
-=======
         width: 10vw;
     }
->>>>>>> parent of 35db1e7... fixed some homepage stuff
