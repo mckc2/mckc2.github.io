@@ -2,17 +2,13 @@ img {
     width: 100%;
 }
 body {
-<<<<<<< HEAD
-    display: flex;
-}
-h1 {
-    font-family:'Bebas Neue', cursive;
-    color: #d19035;
-    font-size: 20pt;
-    margin: auto;
-=======
     margin: 0;
->>>>>>> bd08bdeb090ba6af2b4bc1450e763a62ac67b935
+}
+header #demobox {
+  font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    color: #d19035;
+    margin-left: -120px;
 }
 .grid-2 {
     display: flex;
@@ -25,14 +21,11 @@ h1 {
       justify-content: flex-start;
   }
   /* Text over an images */
-
-
   .hover-text {
     position: relative;
     width: 100%;
     margin: auto;
   }
-
   .bottom {
       padding: 40px;
   }
@@ -90,7 +83,6 @@ h1 {
     width: 85%;
     margin: auto;
   }
-  
   header {
     display: flex;
     width: 60%;
@@ -112,24 +104,12 @@ h1 {
     padding: 12px;
     margin-bottom: 100px;
   }
-  header #demobox {
-    font-family: 'Bebas Neue', cursive; 
-    font-size: 140px;
-    color: #d19035;
-    margin-left: -120px;
-  }
-    .orange {
-<<<<<<< HEAD
+  
+  .orange {
+    font-family: 'Bebas Neue';
     display: flex;
+    color: #d19035;
     justify-content: space-between;
+    justify-items: center;
     background-color: #ffc164;
-    width: 10vw;
     }
-
-
-=======
-        display: flex;
-        justify-content: space-between;
-        background-color: #ffc164;
-    }
->>>>>>> bd08bdeb090ba6af2b4bc1450e763a62ac67b935
