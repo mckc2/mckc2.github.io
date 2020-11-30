@@ -6,12 +6,56 @@
     <link rel="stylesheet" href="style.css" />
     <title>Pajaro PDX</title>
 </head>
+
+<p>Click on the Menu Icon to transform it to "X":</p>
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    
+    <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
+    
+<nav class="nav"><div class="dropdown">
+    <button class="dropbtn"></button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="our story.html">Our Story</a>
+    </div>
+  </div>
+
 <body>
     <h1>
-     <img src="images/headerlogo.png" alt="bird logo" width="50%">
+        <img src="images/headerlogo.png" alt="bird logo" width="50%" class="logo">
     </h1>
-    <div class="pics">
-      <img src="images/Screen Shot 2020-11-15 at 11.54.39 PM.png" alt="">
+
+    <div class="container-1">
+        <div class="container-1-box">
+            <img src="images/Screen Shot 2020-11-15 at 11.55.03 PM.png" alt="" >
+        </div>
+        <div class="container-1-box">
+            <img src="images/Screen Shot 2020-11-15 at 11.54.39 PM.png" alt="" >
+        </div>
+        <div class="container-1-box">
+            <img src="images/Screen Shot 2020-11-15 at 11.54.49 PM.png" alt="" >
+        </div>
+        <div class="container-1-box">
+            <img src="images/Screen Shot 2020-11-15 at 11.55.22 PM.png" alt="" >
+        </div>
+        <div class="container-1-box">
+            <img src="images/Screen Shot 2020-11-15 at 11.55.39 PM.png" alt="" >
+        </div>
     </div>
+    <h3>
+     <p style="font-style: italic;">See more on our instagram @el.pajaro.co</p>
+    </h3>
+   
+   
+
 </body>
 </html>
