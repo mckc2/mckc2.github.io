@@ -62,8 +62,7 @@ img {
 .dropbtn {
     justify-content: flex-end;
     position: relative;
-    padding: 16px;
-    max-width: 20px;
+    max-width: 48px;
     font-size: 16px;
     border: none;
   }
@@ -76,7 +75,7 @@ img {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: flex;
+    display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
