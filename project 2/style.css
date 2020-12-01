@@ -7,13 +7,11 @@ align-items: center;
 
 .container-1-box {
 padding: 15px;
-width: 400%;
 margin: auto;
 }
 nav {
     display: flex;
     width: 20%;
-    margin: auto;
 }
 .container-2 {
     display: flex;
