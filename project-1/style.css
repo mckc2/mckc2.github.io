@@ -1,0 +1,417 @@
+img {
+    width: 100%;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #d19035;
+  color: white;
+  padding: 16px;
+  max-width: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+body {
+    margin: 0;
+}
+header #demobox {
+  font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    color: #d19035;
+    margin-left: -120px;
+}
+.grid-2 {
+    display: flex;
+    padding: 60px;
+  }
+  .grid-2 img {
+    justify-content: flex-start;
+  }
+  .right {
+      justify-content: flex-start;
+  }
+  /* Text over an images */
+  .hover-text {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+  .bottom {
+      padding: 40px;
+  }
+  .hover-text img {
+    width: 100%;
+  }
+
+  .grid-2 .left {
+    padding: 60px;
+  }
+  .hover-text .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #ccb69e;
+  }
+  .hover-text .overlay {
+    width: 100%;
+  }
+  
+  .hover-text:hover .overlay {
+    opacity: 1;
+  }
+  
+  .hover-text .text {
+    color: white;
+    font-family: arial;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+
+  .hover-text.plate  {
+    flex: 65%;
+    margin-right: 20px;
+  }
+  .hover-text.yerb {
+    flex: 35%;
+  }
+  h3 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  main{
+    width: 85%;
+    margin: auto;
+  }
+  header {
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+  header img {
+    max-width: 600px;
+  }
+  header div {
+    flex: 1;
+  }
+  nav a {
+    padding-right: 20px;
+  }
+  nav a:hover {
+    color: #333;
+  }
+  nav {
+    padding: 0px;
+    margin-bottom: 100px;
+  }
+  .orange2 {
+    margin-bottom: 0px;
+  }
+  
+  .orange {
+    font-family: 'Bebas Neue';
+    display: flex;
+    color: #d19035;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #ffc164;
+    }
+
+    #demobox2 {
+      display: flex;
+      block-size: 300px;
+      width: 50%;
+      height: 1000px;
+      align-content: right;
+      background-color: #cfc ;
+    }
+
+   .container-1 {
+     display: flex;
+     padding-left: 30px;
+     margin: 0;
+     justify-content: flex-end;
+     width: 80%;
+   }
+
+   .waffle {
+     width: 30%;
+     padding-left: 100px;
+     
+   }
+   .waffle-words {
+     text-align: left;
+     width: 30%;
+     padding: 30px;
+     font-size: 30;
+   }
+
+   .container-2 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+
+  .bar {
+    width: 30%;
+    padding-left: 100px;
+    
+  }
+  .bar-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+  
+  .container-3 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .soup {
+    width: 25%;
+    padding-left: 100px;
+    align-items: flex-start;
+    
+
+  }
+  .soup-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-4 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .ramen {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .ramen-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-5 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .plate {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .plate-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-6 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .yerb {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .yerb-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-7 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .pasta {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .pasta-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-8 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .bento {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .bento-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-9 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .yerbcan {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .yerbcan-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-10 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .burrito {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+  .burrito-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+  
+  
+  
+  
+  h1.page1 {
+      font-family: sans-serif;
+  }
+
+ p.page1 {
+    text-align: left;
+    font-size: 30;
+    font-family: sans-serif;
+   }
+
+
+  .container-0 {
+  height: 1500px;
+  position: absolute;
+  right: 0;
+  top: 68px;
+  bottom: 0;
+  margin-top: 0px;
+  justify-content: right;
+  width: 60%;
+  z-index: -5;
+}
+
+  .box {
+    height: 100%;
+    width: 100%;
+    background-color: #e7ffd9
+  }
+
+  .box2 {
+    height: 100%;
+    width: 100%;
+    background-color: #dce4ff
+  }
+
+  .box3 {
+    height: 100%;
+    width: 100%;
+    background-color: #ffcdf7
+  }
