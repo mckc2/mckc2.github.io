@@ -539,8 +539,6 @@ header #demobox {
     padding-left: 100px;
   }
 
-
-
   .page-4 .burger img{
     width: 20 px;
   }
@@ -567,6 +565,65 @@ header #demobox {
     font-family: 'Raleway', sans-serif;
    }
 
+  .container-15 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .clementine {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+  .clementine-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-16 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .banhmi {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+  .banhmi-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-17 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .rice {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+  .rice-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
 
   .container-0 {
   height: 1500px;
@@ -604,6 +661,11 @@ header #demobox {
     background-color: #f0d9bd
   }
 
+  .box5 {
+    height: 100%;
+    width: 100%;
+    background-color: #f8b0b0
+  }
   .bigword-box {
     display: flex;
     position: absolute;

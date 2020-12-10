@@ -67,7 +67,7 @@ img {
 }
 
 /* Dropdown Button */
-.dropbtn {
+  .dropbtn {
     justify-content: flex-end;
     position: relative;
     max-width: 48px;
@@ -200,6 +200,28 @@ img {
     margin-bottom: 80px;
   }
 
+  .contact-title-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+  }
+
+  .contact-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  align-content: center;
+}
+
+.contact-form-box{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
 @media screen and (min-width: 768px) {
   .container-1 {
     flex-direction: row;
@@ -208,5 +230,14 @@ img {
   .container-1-box { flex: 50%; }
   .our-story-page .row {
         flex-direction: row;
+    }
+    .menu-pic {
+      width: 100%;
+      }
+
+}
+@media screen and (max-width: 768px) {
+  .menu-pic {
+    width: 100%;
     }
 }
