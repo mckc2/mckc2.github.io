@@ -58,7 +58,7 @@ img {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #d19035;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -237,8 +237,12 @@ header #demobox {
   .bar {
     width: 30%;
     padding-left: 100px;
-    
   }
+
+  .page-1 .bar img {
+    width: 390px; 
+  }
+
   .bar-words {
     text-align: left;
     width: 30%;
@@ -261,8 +265,9 @@ header #demobox {
     padding-left: 100px;
     align-items: flex-start;
   }
+
   .page-1 .soup img {
-    width: 70%;
+    width: 80%;
   }
   .soup-words {
     text-align: left;
@@ -277,6 +282,7 @@ header #demobox {
     margin: 0;
     justify-content: flex-end;
     width: 80%;
+    padding-top: 70px;
   }
 
   .ramen {
@@ -284,7 +290,7 @@ header #demobox {
     padding-left: 100px;
   }
   .page-1 .ramen img {
-    width: 80%;
+    width: 107%;
   }
   .ramen-words {
     text-align: left;
@@ -353,6 +359,7 @@ header #demobox {
     display: flex;
     padding-left: 30px;
     margin: 0;
+    padding-top: 20px;
     justify-content: flex-end;
     width: 80%;
   }
@@ -372,6 +379,12 @@ header #demobox {
     width: 30%;
     padding: 30px;
     font-size: 30;
+    margin-top: 10px;
+  }
+
+  .page-2 .pasta img {
+    width: 450px;
+    margin-left: -16px;
   }
 
   .container-8 {
@@ -412,6 +425,10 @@ header #demobox {
     padding-left: 100px;
 
   }
+
+  .page-3 .yerbcan img {
+    width: 300px;
+  }
   .yerbcan-words {
     text-align: left;
     width: 30%;
@@ -425,6 +442,7 @@ header #demobox {
     margin: 0;
     justify-content: flex-end;
     width: 80%;
+    padding-top: 20px;
   }
 
   .burrito {
@@ -439,17 +457,114 @@ header #demobox {
     font-size: 30;
   }
   
+  .container-11 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .avotoast {
+    width: 30%;
+    padding-left: 100px;
+
+  }
+
+  .avotoast img {
+    width: 290px;
+  }
+  .avotoast-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
+
+  .container-12 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .nuggets {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+  .nuggets-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
   
+  .container-13 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .icecream {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+  .icecream img {
+    width: 285px;
+  }
+
+  .icecream-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
   
+  .container-14 {
+    display: flex;
+    padding-left: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 80%;
+    padding-top: 30px;
+  }
+
+  .burger {
+    width: 30%;
+    padding-left: 100px;
+  }
+
+
+
+  .page-4 .burger img{
+    width: 20 px;
+  }
+
+  .burger-words {
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    font-size: 30;
+  }
   
+  .burger img {
+    width: 300px;
+  }
+
   h1.page1 {
-      font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
   }
 
  p.page1 {
     text-align: left;
     font-size: 30;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
    }
 
 
@@ -482,3 +597,26 @@ header #demobox {
     width: 100%;
     background-color: #ffcdf7
   }
+
+  .box4 {
+    height: 100%;
+    width: 100%;
+    background-color: #f0d9bd
+  }
+
+  .bigword-box {
+    display: flex;
+    position: absolute;
+    width: 140px;
+    padding-left: 100px;
+    
+  }
+
+  .bigword {
+    position: absolute;
+    width: 40px;
+    padding-top: -30 px;
+  }
+    
+
+  
