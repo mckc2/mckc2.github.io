@@ -17,6 +17,22 @@
   animation: cursor 0.5s infinite alternate;
 }
 
+.button {
+  background-color: olivedrab;
+  color: #fff;
+  padding: 6px 10px;
+  padding-bottom: 200px;
+}
+main {
+  width: 60%;
+  margin: 200px auto;
+  padding: 200px;
+}
+
+.empty-space {
+  height: 300px;
+}
+
 @keyframes cursor {
   from {
     opacity: 0;
