@@ -20,28 +20,75 @@
 
     <meta property="og:site_name" content="Pajaro PDX">
     <meta name="twitter:image:alt" content="Pajaro PDX">
-
+    
+    
 </head>
 <body>
-<nav class="nav">
-    <div class="dropdown">
-    <button class="dropbtn">
-        <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </button>
-    <div class="dropdown-content">
-      <a href="index.html">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="our story.html">Our Story</a>
+    <nav class="nav">
+        <div class="dropdown">
+        <button class="dropbtn">
+            <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        </button>
+        <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="our story.html">Our Story</a>
+        </div>
     </div>
-  </div>
-</nav>
+    </nav>
 
-    <cursor: url(img src= "images/coffeebean.png"), auto;></cursor:>
     <h1>
-        <img src="images/headerlogo.png" alt="bird logo" class="logo">
+        <img src="images/header-logo2.png" alt="bird logo" class="logo">
     </h1>
+    
+    <p id="text">
+        <span>
+          <noscript
+            >Vegan, local, fully organic, and low-waste cafe.</noscript
+          >
+        </span>
+      </p>
+    
+
+
+    <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"
+        ></script>
+    <script>
+    function randomIntFromInterval(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    
+    
+    function typing(p) {
+      $("#" + p).addClass("cursor");
+      let text = $("#" + p).text(),
+        randInt = 0;
+      for (let i = 0; i < text.length; i++) {
+        randInt += parseInt(randomIntFromInterval(10, 140));
+        let typing = setTimeout(
+          function(y) {
+            $("#" + p).append(text.charAt(y));
+          },
+          randInt,
+          i
+        );
+      }
+    }
+    
+    typing("text");
+    
+    </script>
+
+
+
+
+
+    
 
     <div class="container-1">
         <div class="container-1-box">
@@ -65,6 +112,5 @@
     </h3>
    
    
-
 </body>
 </html>
